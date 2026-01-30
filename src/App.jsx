@@ -340,8 +340,8 @@ export default function App() {
               <div style={{ flex: 1 }}>
                 <div style={styles.small}>Ver</div>
                 <div style={styles.pills}>
-                  <button style={showOnlyToday ? styles.btnPrimary : styles.btn} onClick={() => setShowOnlyToday(true)}>Solo día</button>
-                  <button style={!showOnlyToday ? styles.btnPrimary : styles.btn} onClick={() => setShowOnlyToday(false)}>Todo el historial</button>
+                  <button style={showOnlyToday ? styles.btnPrimary : styles.btn} onClick={() => setShowOnlyToday(true)}>Día</button>
+                  <button style={!showOnlyToday ? styles.btnPrimary : styles.btn} onClick={() => setShowOnlyToday(false)}>Historial</button>
                 </div>
               </div>
             </div>
